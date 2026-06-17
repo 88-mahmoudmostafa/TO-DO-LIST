@@ -1,0 +1,89 @@
+body{
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    height: 100vh;
+    
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    flex-direction: column;
+
+
+    
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height:100vh;
+    
+    /* margin-top: -30px; */
+    
+}
+ul{
+    height: 330PX;
+    overflow-y: auto;
+    width: 70%;
+    margin: auto;
+}
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 10PX;
+
+}
+input{
+    border-radius: 10px;
+    border: none;
+    padding: 10px;
+       width: 80%;
+}
+input:focus{
+   border: 1px solid black;
+   background-color: black;
+   color: white;
+
+    
+}
+button{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    width: 82%;
+
+
+}
+.dome{
+    text-decoration: line-through;
+}
+
+li{
+overflow-wrap: break-word;
+list-style-type: '👉';
+margin: 8px;
+cursor: pointer;
+width: 50%;
+gap: 5px;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+span{
+    cursor: pointer;
+    color: red;
+    font-size: 30px;
+    font-weight: 600;
+}
